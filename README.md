@@ -1,8 +1,9 @@
 # FindDev
-It's a project that registers developers through the github user. PS: In the mobile version you can see the developer's location through the map.
+It's a project that registers developers through the github user. In the mobile version you can see the developer's location through the map.
+
+PS: I'am using yarn. https://yarnpkg.com/
 
 To run the project:
-PS: I'am using yarn. https://yarnpkg.com/
 
 1) Do the git clone :D
 2) Inside the "backend" folder, open the cmd and use "yarn dev"
