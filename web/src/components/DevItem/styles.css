@@ -1,0 +1,52 @@
+li.dev-item {
+    background: #fff;
+    box-shadow: 0 0 14px 0 rgba(0, 0, 0, 0.02); /* 14 de shadow, 0.02 de opacidade */
+    border-radius: 2px; 
+    padding: 20px;
+}
+
+li.dev-item header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+li.dev-item header img {
+    width: 54px;
+    height: 54px;
+    border-radius: 50px; /* deixa a foto do perfil redondo */
+}
+
+li.dev-item header .user-info {
+    margin-top: 10px;
+}
+
+.user-info strong { /* aqui é a parte do nome do usuário */
+    display: block;
+    font-size: 16px;
+    color: #333;
+}
+
+.user-info span { /* aqui é a parte das tecnologias do usuário */
+    font-size: 13px;
+    color: #999;
+    margin-top: 2px;
+}
+
+.dev-item p { /* aqui é a parte da biografia do usuário */
+    color: #666;
+    font-size: 14px;
+    line-height: 20px;
+    margin: 10px 0; /* 10px em cima e embaixo, 0px nas laterais (esquerda e direita) */
+}
+
+li.dev-item a { /* aqui é a parte do link do usuário */
+    color: #8e4dff;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+li.dev-item a:hover { /* ao passar o mouse no link */
+    color: #5a2ea6;
+}
+

@@ -1,0 +1,17 @@
+main {
+    flex: 1;
+}
+
+main ul {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* repete 2x o 1fr */
+    gap: 20px; /* da distancia de 20px tanto na linha quanto coluna */
+    list-style: none;
+}
+
+@media (max-width: 650px) { /* media care, responsiva, seto em 650px (width) (essa media foi tirada ao inspecionar o elemento da tela, cada vez que vai diminuindo a tela, vai obtendo o tamanho da tela na width) */
+    main ul { 
+        grid-template-columns: 1fr;
+    }
+}
+

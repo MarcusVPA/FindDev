@@ -1,0 +1,28 @@
+#app {
+    max-width: 1200px; /* se a tela do usuário for muito grande */
+    margin: auto 0; /* fica tudo centralizado */
+    padding: 60px 30px; /* 60px em cima e embaixo, 30px direita e esquerda */ 
+
+    display: flex;
+    flex-direction: row; /* fica um ao lado do outro (fica em linha) */
+    align-items: flex-start; /* itens sempre alinhado ao topo */
+}
+
+#app main {
+    margin-left: 30px;
+}
+
+@media(max-width: 1000px ) { /* media care, responsiva, seto em 1000px (width) (essa media foi tirada ao inspecionar o elemento da tela, cada vez que vai diminuindo a tela, vai obtendo o tamanho da tela na width) */
+    #app {
+        flex-direction: column;
+    }
+
+    #app main {
+        margin-left: 0;
+        margin-top: 30px;
+    }
+
+    #app aside {
+        width: 100%;
+    }
+} 
